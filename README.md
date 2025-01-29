@@ -28,6 +28,13 @@ git clone https://github.com/wmdgimhana/GenAI-Story-Writer.git
 cd GenAI-Story-Writer
 ```
 ### **2️⃣ Backend Setup**
-1.Navigate to the backend folder
+1. Navigate to the backend folder
 ```sh
 cd backend
+```
+2. Create a virtual environment
+```sh
+python -m venv venv
+source venv/bin/activate  # (Windows: venv\Scripts\activate)
+```
+
