@@ -24,5 +24,5 @@ GenAI Story Writer is an advanced AI-powered application designed to generate cr
 
 ### **1️⃣ Clone the Repository**
 ```sh
-git clone https://github.com/yourusername/genai-story-writer.git
-cd genai-story-writer
+git clone https://github.com/wmdgimhana/GenAI-Story-Writer.git
+cd GenAI-Story-Writer
