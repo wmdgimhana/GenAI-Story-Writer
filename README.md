@@ -1,4 +1,28 @@
 # 🚀 GenAI Story Writer - AI-Powered Storytelling
-GenAI Story Writer is an AI-powered storytelling application that generates engaging stories based on user-defined inputs. Built with FastAPI, LangChain, and Groq API for AI-driven text generation, the project features a sleek and responsive React frontend using Tailwind CSS and Mantine UI.
 
-This project allows users to customize their story elements, such as genre, characters, plot, tone, key events, and moral, to craft unique narratives.
+GenAI Story Writer is an advanced AI-powered application designed to generate creative and unique stories based on user input. By leveraging **LangChain**, **FastAPI**, and **Groq API**, this project enables dynamic and engaging story generation with customizable story elements. The sleek frontend is built using **React, Tailwind CSS, and Mantine UI**, ensuring a seamless user experience.
+
+## ✨ Features
+
+- 📝 **Custom Story Generation** – Define genre, title, characters, setting, protagonist, antagonist, tone, conflict, dialogue and theme.
+- 🔥 **AI-Powered Writing** – Utilizes Groq API with LangChain for intelligent text generation.
+- ⚡ **Fast & Efficient Backend** – Built with FastAPI for high-speed processing.
+- 🎨 **Modern UI** – React + Mantine UI + Tailwind CSS for an intuitive and responsive interface.
+- 📚 **History & Editing** – Review and edit generated stories.
+
+## 🚀 Tech Stack
+
+| Component  | Technology |
+|------------|-----------|
+| **Frontend** | React, Tailwind CSS, Mantine UI |
+| **Backend**  | FastAPI, LangChain, Groq API |
+| **AI Model** | Gemma 2 9B (via Groq API) |
+| **State Management** | React Context (or Zustand, if used) |
+| **Deployment** | (Specify if using Vercel, Render, or another platform) |
+
+## 🛠 Installation & Setup
+
+### **1️⃣ Clone the Repository**
+```sh
+git clone https://github.com/yourusername/genai-story-writer.git
+cd genai-story-writer
