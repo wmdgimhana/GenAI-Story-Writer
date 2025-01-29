@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+* {
+  font-family: "Open Sans", serif;
+}
+
+.main-f {
+  font-family: "Open Sans", serif;
+}
+
+/* Blue Ball Styling */
+.blue-ball {
+  position: absolute;
+  background-color: #334eff;
+  border-radius: 50%;
+}
+
+/* Left Ball */
+.left-ball {
+  width: 500px;
+  height: 500px;
+  top: 0;
+  left: 0;
+  animation: moveLeftRight 8s ease-in-out infinite;
+}
+
+/* Right Ball */
+.right-ball {
+  width: 300px;
+  height: 300px;
+  bottom: 0;
+  right: 0;
+  animation: moveUpDown 6s ease-in-out infinite;
+}
+.right-top {
+  width: 200px;
+  height: 200px;
+  bottom: 0;
+  right: 0;
+  animation: moveUpDown 6s ease-in-out infinite;
+}
+
+/* Keyframes */
+@keyframes moveLeftRight {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100px);
+  }
+}
+
+@keyframes moveUpDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(100px);
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.loading:after {
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
+  -webkit-animation: ellipsis steps(4, end) 900ms infinite;
+  animation: ellipsis steps(4, end) 900ms infinite;
+  content: "\2026";
+  /* ascii code for the ellipsis character */
+  width: 0px;
+}
+
+@keyframes ellipsis {
+  to {
+    width: 40px;
+  }
+}
+
+@-webkit-keyframes ellipsis {
+  to {
+    width: 40px;
+  }
+}
