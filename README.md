@@ -37,4 +37,31 @@ cd backend
 python -m venv venv
 source venv/bin/activate  # (Windows: venv\Scripts\activate)
 ```
+3. Install dependencies
+```sh
+pip install -r requirements.txt
+```
+4. Set up environment variables (.env file)
+```sh
+GROQ_API_KEY=your_groq_api_key
+```
+5. Run the FastAPI server
+```sh
+uvicorn main:app --reload
+```
+
+### **3️⃣ Frontend Setup**
+1. Navigate to the frontend folder
+```sh
+cd frontend
+```
+2. Install dependencies
+```sh
+npm install
+```
+3. Start the development server
+```sh
+npm run dev
+```
+
 
