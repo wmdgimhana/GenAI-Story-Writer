@@ -8,7 +8,6 @@ GenAI Story Writer is an advanced AI-powered application designed to generate cr
 - 🔥 **AI-Powered Writing** – Utilizes Groq API with LangChain for intelligent text generation.
 - ⚡ **Fast & Efficient Backend** – Built with FastAPI for high-speed processing.
 - 🎨 **Modern UI** – React + Mantine UI + Tailwind CSS for an intuitive and responsive interface.
-- 📚 **History & Editing** – Review and edit generated stories.
 
 ## 🚀 Tech Stack
 
