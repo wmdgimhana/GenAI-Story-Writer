@@ -64,4 +64,4 @@ npm run dev
 ```
 
 ## 📬 Contact
-For any inquiries, reach out via [GitHub Issues](https://github.com/wmdgimhana/GenAI-Story-Writer.git/issues).
+For any inquiries, reach out via [GitHub Issues](https://github.com/wmdgimhana/GenAI-Story-Writer/issues).
