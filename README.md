@@ -16,8 +16,6 @@ GenAI Story Writer is an advanced AI-powered application designed to generate cr
 | **Frontend** | React, Tailwind CSS, Mantine UI |
 | **Backend**  | FastAPI, LangChain, Groq API |
 | **AI Model** | Gemma 2 9B (via Groq API) |
-| **State Management** | React Context (or Zustand, if used) |
-| **Deployment** | (Specify if using Vercel, Render, or another platform) |
 
 ## 🛠 Installation & Setup
 
